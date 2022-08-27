@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        var num = Number(prompt('input a number'));
+        for (var i = 0; i < num; i++) {
+            var str = '';
+            for (var j = 0; j < num - i; j++) {
+                str = str + '❤'
+            }
+            console.log(str);
+        }
+
+        // console.log('\n\n\n\n\n\n\n\n\n');
+
+        // for (var i = 0; i < num; i++) {
+        //     var num2 = num - i;
+        //     for (var j = 0; j < num2; j++) {
+        //         console.log(j);
+        //     }
+        //     // console.log('\n');
+        // }
+        //这中写法在c中有效，但是在js中，每次执行一次循环都会自动换行，所以内循环不会输出在同一行内
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
